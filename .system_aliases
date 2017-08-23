@@ -1,0 +1,20 @@
+alias profile="atom ~/.bash_profile"
+
+# Get OS X Software Updates, update Homebrew itself, and upgrade installed Homebrew packages
+alias update="sudo softwareupdate -i -a; brew update; brew upgrade"
+
+# Jump back n directories at a time
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+
+
+# Jump to projects
+alias projects="cd ~/Documents/projects"
+alias zappi="cd ~/Documents/projects/zappi.client"
+alias zappistore="cd ~/Documents/projects/zappistore"
+alias datacollector="cd ~/Documents/projects/data-collector"
+alias dreikanter="cd ~/Documents/projects/dreikanter"
+alias eatguru="cd ~/Documents/projects/eatguru"
